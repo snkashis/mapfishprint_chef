@@ -1,0 +1,5 @@
+cookbooks/
+tmp/
+*.lock
+vagrant.key
+.DS_Store

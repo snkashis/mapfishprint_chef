@@ -1,0 +1,5 @@
+{"run_list":["recipe[tomcat]","recipe[mapfishprint]"],
+  "tomcat" : {
+    "base_version" : 7
+  }
+}
