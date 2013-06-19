@@ -12,11 +12,11 @@ You should then have a functioning MFP server which you can visit at
 http://example_host:8080/mfp
 
 OPTIONS:
-If you want to use your own built version of MFP(2.0 fork with s3_support - https://github.com/snkashis/mapfish-print/tree/s3_support) instead of CaerusGeo's, change the source in the remote_file block of
-/site-cookbooks/mapfishprint/recipes/default.rb
+If you want to use your own built version of MFP instead of the included CaerusGeo fork (built from 2.0  + s3_support - https://github.com/snkashis/mapfish-print/tree/s3_support), change the source in the remote_file block of
+*/site-cookbooks/mapfishprint/recipes/default.rb*
 
 If you want to change the MFP config.yaml in this deployment process, modify the config.yaml in 
-/site-cookbooks/mapfishprint/files/config.yaml
+*/site-cookbooks/mapfishprint/files/config.yaml*
 
 This guide was adapted from
 http://leopard.in.ua/2013/01/04/chef-solo-getting-started-part-1/
